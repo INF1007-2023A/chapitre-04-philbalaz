@@ -14,8 +14,6 @@ def remove_third_char(string: str) -> str:
     return string
 
 
-
-
 def replace_char(string: str, old_char: str, new_char: str) -> str:
     string = string.replace(old_char, new_char)
     return string
@@ -33,9 +31,9 @@ def get_number_of_char(string: str, char: str) -> int:
     return n
 
 
-
 def get_number_of_words(sentence: str, word: str) -> int:
-    pass
+    return sentence.count(word)
+
 
 
 def main() -> None:
